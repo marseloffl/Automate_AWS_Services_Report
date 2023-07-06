@@ -1,0 +1,35 @@
+This is about automating AWS Services Report using Bash!
+
+Required:
+
+First You Have to Install AWS CLI.
+
+Next You Should Have an IAM User Account.
+
+You Should have any ssh editor (Eg: MobaXterm)
+
+Commands:
+
+1. First You Should Check whether AWS CLI installed using "aws" or "aws ls" Command on SSH Editor
+
+2. Next command is you have to login AWS with your IAM user details using "aws configure" command
+
+3. It will as for
+
+AWS Access Key ID :
+AWS Secret Access Key :
+Default region name : ap-south-1
+Default output format : json
+
+4. Create a file using "vim aws_services_tracker.sh" command
+Note: you can create any name as you wish.
+
+5. Press ESC and Type any key for INSERT mode.
+
+6. Check aws_services_tracker.sh file for commands and you can alter it.
+
+7. To Exit the INSERT mode, Press ESC and type :wq!
+
+8. Now Check the file using "./aws_services_tracker.sh" command.
+
+Thank You !!!!!!!!!

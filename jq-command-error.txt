@@ -1,0 +1,6 @@
+If "jq command not found error" occurs
+
+
+On the SSH Editor try Installing jq using this command:
+
+apt-get install -y jq
